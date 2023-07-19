@@ -1,4 +1,4 @@
-
+// Task https://leetcode.com/problems/two-sum/
 fun main() {
     println( twoSum(intArrayOf(2,7,11,15), 9).toList())
 }
