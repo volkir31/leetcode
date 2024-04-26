@@ -1,4 +1,6 @@
-
+plugins {
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
+}
 rootProject.name = "leetcode"
 include("RomanToInt")
 include("LongestCommonPrefix")
@@ -35,3 +37,5 @@ include("WeakestRows")
 include("FindTheDifference")
 include("SortArrayByParity")
 include("MonotonicArray")
+include("Find132pattern")
+include("MaxArea")
